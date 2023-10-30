@@ -5,7 +5,7 @@ import myNav from "@/views/desktop/Nav.vue"
 </script>
 
 <template>
-  <div class="w-screen h-screen absolute">
+  <div class="w-screen h-screen absolute overflow-hidden">
     <content class="relative top-0"/>
     <my-nav class="relative bottom-0"/>
   </div>
